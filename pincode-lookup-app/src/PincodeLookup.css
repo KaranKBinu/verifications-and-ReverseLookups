@@ -1,0 +1,67 @@
+/* src/PincodeLookup.css */
+
+/* Style the container */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #a7ddec; /* Change the background color */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form input */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #ffffff; /* Change the input background color */
+}
+
+/* Style the "Lookup" button */
+.btn-primary {
+  width: 100%;
+  background-color: #007bff; /* Change the button background color */
+  border-color: #007bff; /* Change the button border color */
+}
+
+/* Style the "Clear" button */
+.btn-outline-secondary {
+  background-color: transparent;
+  border-color: #ccc;
+  color: #333; /* Change the button text color */
+}
+
+/* Add hover effect to buttons */
+.btn-primary:hover,
+.btn-outline-secondary:hover {
+  background-color: #0056b3; /* Change the button background color on hover */
+  border-color: #0056b3; /* Change the button border color on hover */
+  color: #fff; /* Change the button text color on hover */
+}
+
+/* Style the place details list */
+.list-group {
+  margin-top: 20px;
+}
+
+/* Style each list item */
+.list-group-item {
+  margin-bottom: 10px;
+  border: 1px solid #007cf9;
+  border-radius: 4px;
+  padding: 10px;
+ transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.list-group-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+/* Style the headings within each list item */
+.list-group-item h2 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #007bff;
+}

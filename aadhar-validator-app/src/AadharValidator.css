@@ -1,0 +1,25 @@
+
+.form-control {
+  transition: border-color 0.3s ease-in-out;
+  text-align: center;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+}
+
+/*result message */
+.alert {
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
