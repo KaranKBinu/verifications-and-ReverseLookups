@@ -27,9 +27,9 @@ function EmailOTPVerification() {
     };
 
     const sendEmail = (toEmail, otp) => {
-        const serviceId = 'service_5ew7mbj';
-        const templateId = 'template_x8zu7ud';
-        const userId = 'FpJeE_hFy8j-Kln-d';
+        const serviceId = 'ADD_SERVICE_ID';
+        const templateId = 'ADD_TEMPLATE_ID';
+        const userId = 'ADD_USER_ID';
 
         emailjs
             .send(serviceId, templateId, {
