@@ -10,8 +10,8 @@ const port = process.env.PORT || 3001;
 app.use(bodyParser.json());
 app.use(cors());
 
-const accountSid = 'AC6c2a4b77b5b856bc5dfccf14a11cd424';
-const authToken = '1fb627959e06e11fdb659a7a67bc3aec';
+const accountSid = 'ADD_YOUR_SID_HERE';
+const authToken = 'ADD_YOUR_AUTH_TOKEN_HERE';
 
 const client = new twilio(accountSid, authToken);
 
@@ -30,7 +30,7 @@ app.post('/send-otp', (req, res) => {
     client.messages
         .create({
             body: `Your OTP is: ${otp}`,
-            from: '+13347817028',
+            from: 'ADD_YOUR_TWILIO_NUMBER_HERE',
             to,
         })
         .then(() => {
